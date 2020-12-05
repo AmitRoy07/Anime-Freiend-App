@@ -4,9 +4,10 @@ import SearchBox from './SearchBox';
 import Scorll from './Scorll';
 // import { Animename } from './Animename';
 import './App.css';
+import ErrorBoundry from './ErrorBoundry';
 
 
-class App extends Component {
+class App extends Component { 
 	constructor(){
 		super()
 		this.state = {
@@ -37,7 +38,9 @@ class App extends Component {
 					<h1>AnimeFriends</h1>
 					<SearchBox searchChange={this.onSearchChange}/>
 					<Scorll>
-						<Cardlist Animename={fillterAnime}/>
+						<ErrorBoundry>
+							<Cardlist Animename={fillterAnime}/>
+						</ErrorBoundry>
 					</Scorll>
 				</div>
 			);
