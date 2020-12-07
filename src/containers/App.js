@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Cardlist from './Cardlist';
-import SearchBox from './SearchBox';
-import Scorll from './Scorll';
+import Cardlist from '../component/Cardlist';
+import SearchBox from '../component/SearchBox';
+import Scorll from '../component/Scorll';
 // import { Animename } from './Animename';
 import './App.css';
 import ErrorBoundry from './ErrorBoundry';
