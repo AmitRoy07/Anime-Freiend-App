@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Anime-Freiend-App/static/css/main.8e14c8f5.chunk.css",
+    "main.js": "/Anime-Freiend-App/static/js/main.a06ea4e1.chunk.js",
+    "main.js.map": "/Anime-Freiend-App/static/js/main.a06ea4e1.chunk.js.map",
+    "runtime-main.js": "/Anime-Freiend-App/static/js/runtime-main.1c520f5d.js",
+    "runtime-main.js.map": "/Anime-Freiend-App/static/js/runtime-main.1c520f5d.js.map",
+    "static/css/2.31461e4f.chunk.css": "/Anime-Freiend-App/static/css/2.31461e4f.chunk.css",
+    "static/js/2.370c424e.chunk.js": "/Anime-Freiend-App/static/js/2.370c424e.chunk.js",
+    "static/js/2.370c424e.chunk.js.map": "/Anime-Freiend-App/static/js/2.370c424e.chunk.js.map",
+    "static/js/3.292da1c8.chunk.js": "/Anime-Freiend-App/static/js/3.292da1c8.chunk.js",
+    "static/js/3.292da1c8.chunk.js.map": "/Anime-Freiend-App/static/js/3.292da1c8.chunk.js.map",
+    "index.html": "/Anime-Freiend-App/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/Anime-Freiend-App/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.8e14c8f5.chunk.css.map": "/Anime-Freiend-App/static/css/main.8e14c8f5.chunk.css.map",
+    "static/js/2.370c424e.chunk.js.LICENSE.txt": "/Anime-Freiend-App/static/js/2.370c424e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Anime-Freiend-App/static/media/Cyberpunk-Regular.eea1bf72.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c520f5d.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.370c424e.chunk.js",
+    "static/css/main.8e14c8f5.chunk.css",
+    "static/js/main.a06ea4e1.chunk.js"
+  ]
+}
