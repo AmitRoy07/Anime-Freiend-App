@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 import Cardlist from '../component/Cardlist';
 import SearchBox from '../component/SearchBox';
 import Scorll from '../component/Scorll';
@@ -6,6 +7,19 @@ import Scorll from '../component/Scorll';
 import './App.css';
 import ErrorBoundry from './ErrorBoundry';
 
+import {setSearchField} from '../action.js';
+
+const mapStateProps = state => {
+	return{
+		searchField: state.searchField
+	}
+}
+
+const mapDispatchToProps = (dispatch) =>{
+	return{
+		onSearchChange: (event) => dispatch(setSearchField(event.target.value))
+	}
+}
 
 class App extends Component { 
 	constructor(){
@@ -24,7 +38,6 @@ class App extends Component {
 
 	onSearchChange = (e) => {
     	this.setState({ searchfield: e.target.value })
-    	
   	};
 	render(){
 		const fillterAnime = this.state.Animename.filter(Animename =>{
@@ -48,4 +61,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default connect(mapStateProps, mapDispatchToProps)(App);
